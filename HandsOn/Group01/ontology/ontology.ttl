@@ -25,6 +25,31 @@ ns:is_in a owl:ObjectProperty ;
     rdfs:domain ns:center ;
     rdfs:range ns:health_area .
 
+ns:has_name a owl:ObjectProperty ;
+    rdfs:label "has_name" ;
+    rdfs:domain ns:center ;
+    rdfs:range xsd:string.
+
+ns:has_phoneNumber a owl:ObjectProperty ;
+    rdfs:label "has_phoneNumber" ;
+    rdfs:domain ns:center ;
+    rdfs:range xsd:string.
+
+ns:has_adress a owl:ObjectProperty ;
+    rdfs:label "has_adress" ;
+    rdfs:domain ns:center ;
+    rdfs:range xsd:string.
+
+ns:has_lat a owl:ObjectProperty ;
+    rdfs:label "has_lat" ;
+    rdfs:domain ns:center ;
+    rdfs:range xsd:float.
+
+ns:has_long a owl:ObjectProperty ;
+    rdfs:label "has_long" ;
+    rdfs:domain ns:center ;
+    rdfs:range xsd:float.
+
 ns:managed_by a owl:ObjectProperty ;
     rdfs:label "managed_by" ;
     rdfs:domain ns:center ;
